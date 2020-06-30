@@ -1,0 +1,11 @@
+{
+  "name": "test-doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "dumi": "^1.0.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "issues",
   "version": "1.0.0",
-  "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/otakustay/issues/issues"
   },
-  "homepage": "https://github.com/otakustay/issues#readme"
+  "homepage": "https://github.com/otakustay/issues#readme",
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@emotion/babel-plugin": "^11.10.5",
+    "vite": "^4.0.4",
+    "vitest": "^0.27.3"
+  },
+  "description": ""
 }

@@ -1,7 +1,8 @@
 {
   "name": "issues",
+  "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "本代码库用来复现各开源项目的问题，会每一个分支复现一个问题用于提Issue或PR。",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/otakustay/issues/issues"
   },
-  "homepage": "https://github.com/otakustay/issues#readme"
+  "homepage": "https://github.com/otakustay/issues#readme",
+  "dependencies": {
+    "@oxc-node/cli": "^0.0.35",
+    "@types/react": "^19.2.14",
+    "ink": "^6.8.0",
+    "react": "^19.2.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
 }
